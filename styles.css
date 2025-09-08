@@ -340,12 +340,13 @@ button:focus {
 }
 
 .contact-item img {
-  max-width: min(40px, 10%);
-  width: 100%;
-  height: auto;
+  width: 50px;      /* slightly larger */
+  height: 50px;     /* maintain aspect ratio */
+  max-width: 100%;  /* don’t exceed container */
   display: block;
   transition: transform 0.3s ease;
 }
+
 
 .contact-item img:hover,
 .contact-item img:focus {
