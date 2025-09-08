@@ -3,31 +3,25 @@ A fully responsive, accessible, and modern homepage built with HTML and CSS. Des
 
 ---
 
-## Table of Contents
-
-- [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Project Structure](#project-structure)  
-- [Accessibility](#accessibility)  
-- [Responsive Design](#responsive-design)  
-- [How to Use](#how-to-use)  
-- [License](#license)  
-
----
-
 ## Features
 
 - Fully **responsive layout** using `flex`, `min()`, `max()`, and `clamp()`
-- Clean, modern **hero section** with profile image and skills row
-- **Projects grid** showcasing multiple projects
+- Clean, modern **hero section** with profile image, skills row, and call-to-action button
+- **Projects grid** showcasing multiple projects with:
+  - GitHub repo links
+  - Live demo links for each project
+  - Interactive hover and focus effects
+  - Fully responsive cards with flexible width and height
 - **About section** with readable text and proper alignment
 - **Contact section** with icons and text that wrap correctly on all screen sizes
 - **Level AA accessible**:
   - Visible focus indicators for keyboard navigation
   - High color contrast for text and links
   - Descriptive `alt` text for images
+  - ARIA labels for interactive elements
 - Smooth scroll behavior and hover/focus effects
-- No hard-coded widths or heights; fully flexible layout
+- Fully flexible layout; no hard-coded widths or heights
+- Optimized for **all screen sizes**: desktop, laptop, tablet, and mobile
 
 ---
 
