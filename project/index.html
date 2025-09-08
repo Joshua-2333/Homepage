@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Joshua Flores | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Joshua Flores</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-left">
+        <picture>
+          <source srcset="images/photo-original-large.jpg" media="(min-width: 1200px)">
+          <source srcset="images/photo-original-medium.jpg" media="(min-width: 768px)">
+          <source srcset="images/photo-original-small.jpg" media="(max-width: 767px)">
+          <img src="images/photo-original-large.jpg" alt="Portrait of Joshua Flores" class="hero-img">
+        </picture>
+      </div>
+
+      <div class="hero-right">
+        <h2>Hello, I’m <span>Joshua Flores</span></h2>
+        <p>Aspiring web developer &amp; designer</p>
+        <a href="#projects" class="btn">View My Work</a>
+
+        <!-- Hero Skills Row -->
+        <div class="hero-skills">
+          <img src="icons/html.svg" alt="HTML">
+          <img src="icons/css.svg" alt="CSS">
+          <img src="icons/js.svg" alt="JavaScript">
+          <img src="icons/react.svg" alt="React">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I’m Joshua Flores, an aspiring web developer with a passion for
+        building clean, responsive websites and interactive web apps.
+        I enjoy working with HTML, CSS, and JavaScript, and I’m always
+        exploring new ways to bring ideas to life on the web.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">Project 1</article>
+        <article class="project-card">Project 2</article>
+        <article class="project-card">Project 3</article>
+        <article class="project-card">Project 4</article>
+        <article class="project-card">Project 5</article>
+        <article class="project-card">Project 6</article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <div class="contact-content">
+        <div class="contact-icons">
+          <div class="contact-item">
+            <a href="#">
+              <img src="icons/email-outline.svg" alt="Email">
+            </a>
+            <span>Email: you@email.com</span>
+          </div>
+          <div class="contact-item">
+            <a href="#">
+              <img src="icons/phone.svg" alt="Phone">
+            </a>
+            <span>Phone: +1 234 567 89</span>
+          </div>
+          <div class="contact-item">
+            <a href="https://github.com/Joshua-2333" target="_blank" rel="noopener">
+              <img src="icons/github.svg" alt="GitHub">
+            </a>
+            <span>GitHub: Joshua-2333</span>
+          </div>
+          <div class="contact-item">
+            <a href="#">
+              <img src="icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <span>LinkedIn: YourProfile</span>
+          </div>
+        </div>
+
+        <picture>
+          <source srcset="images/office-work-large.jpg" media="(min-width: 1200px)">
+          <source srcset="images/office-work-medium.jpg" media="(min-width: 768px)">
+          <source srcset="images/office-work-small.jpg" media="(max-width: 767px)">
+          <img src="images/office-work-original.jpg" alt="Office workspace" class="contact-img">
+        </picture>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Joshua Flores</p>
+  </footer>
+</body>
+</html>
